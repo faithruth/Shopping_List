@@ -8,6 +8,16 @@ body {
     font-weight: 300;
     height: 200;
   }
+
+  table {
+      background-color: #FDFBFB;
+      border-block-end-color: #DDD;
+      width: 500px;
+  }
+  th, td {
+    padding: 5px;
+    text-align: left;
+}
   
   #login-box {
     position: relative;
