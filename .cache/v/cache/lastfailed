@@ -1,7 +1,7 @@
 {
   "tests.py::ShoppingListTestCase::test_add_item": true,
-  "tests.py::ShoppingListTestCase::test_add_items": true,
   "tests.py::ShoppingListTestCase::test_add_to_list": true,
-  "tests.py::ShoppingListTestCase::test_items": true,
-  "tests.py::ShoppingListTestCase::test_list": true
+  "tests.py::ShoppingListTestCase::test_list": true,
+  "tests.py::ShoppingListTestCase::test_remove_item": true,
+  "tests.py::ShoppingListTestCase::test_remove_items": true
 }

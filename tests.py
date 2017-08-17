@@ -7,14 +7,19 @@ class ShoppingListTestCase(unittest.TestCase):
         self.myList = ShoppingList()
 
     def test_items(self):
-        self.myList.items.insert(0,'perfume')
-        self.assertEqual(self.myList.items, ['perfume'], msg='item not in list')
+        self.assertEqual(self.myList.myList, [], msg='item not in list')
 
     def test_add_items(self):
         self.myList.add_items('lotion')
-        self.assertEqual(self.myList.add_items, ['lotion'], msg='item not added to list')
+        self.assertEqual(self.myList.myList, ['lotion'], msg='item not added to list')
 
+    def test_add_more_items(self):
+        self.myList.add_more_items('perfume')
+        self.assertEqual(self.myList.myList, ['perfume'], msg='item not not on list')
+
+    def test_remove_item(self):
+        self.myList.remove_item("perfume")
+        self.assertEqual(self.myList.myList, ['perfume'], msg="Item not deleted")
+    
   
-      
-
     
