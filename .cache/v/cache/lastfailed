@@ -1,6 +1,0 @@
-{
-  "tests.py::ShoppingListTestCase::test_add_item": true,
-  "tests.py::ShoppingListTestCase::test_add_items": true,
-  "tests.py::ShoppingListTestCase::test_items": true,
-  "tests.py::test_items": true
-}
