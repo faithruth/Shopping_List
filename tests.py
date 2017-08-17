@@ -8,12 +8,10 @@ class ShoppingListTestCase(unittest.TestCase):
 
     def test_items(self):
         self.myList.items.append('perfume')
-        self.assertEqual(self.myList.items, ['perfume'], msg='item not in list')
+        self.myList.items.append('gift')
+        self.assertEqual(self.myList.items, ['perfume, gift'], msg='item not in list')
 
-    def test_add_item(self):
-        self.myList.items.append('honey')
-        self.assertEqual(self.myList.items, ['honey'], msg='item not added to list')
-
+  
       
 
     
