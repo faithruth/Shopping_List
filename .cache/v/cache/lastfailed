@@ -1,0 +1,4 @@
+{
+  "tests.py::ShoppingListTestCase::test_add_item": true,
+  "tests.py::ShoppingListTestCase::test_items": true
+}
